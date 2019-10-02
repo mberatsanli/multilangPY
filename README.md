@@ -3,14 +3,14 @@
 
 ### Import the library
 ```python
-import multilang
+from multilang import multilang
 ```
 
 ## Using
 
 ####  > How to starting
 ```python
-mlang = multilang.multilang()
+mlang = multilang()
 ```
 
 #### > Set Languages Directory
