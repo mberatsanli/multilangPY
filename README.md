@@ -61,6 +61,26 @@ For example, the folder with the language files: `../multilang/languages/` and w
 mlang.get(CALLED NAME)
 ```
 
+## Dynamic Example
+```python
+from multilang import multilang
+
+mlang = multilang()
+
+mlang.set("lang", "tr")
+print(mlang.get("merhaba_kullanici") % "Melih")
+
+
+mlang.set("lang", "az")
+print(mlang.get("merhaba_kullanici") % "canim ben")
+```
+```shell
+Output;
+> Merhaba Melih
+> Salam canim ben
+```
+You are set different languages in one project
+
 ## Example Using
 ```python
 # main.py
