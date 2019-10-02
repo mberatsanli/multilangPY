@@ -62,6 +62,7 @@ mlang.get(CALLED NAME)
 ```
 
 ## Dynamic Example
+You can use different languages within a project.
 ```python
 from multilang import multilang
 
@@ -79,7 +80,6 @@ Output;
 > Merhaba Melih
 > Salam canim ben
 ```
-You are set different languages in one project
 
 ## Example Using
 ```python
