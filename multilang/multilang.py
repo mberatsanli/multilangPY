@@ -1,6 +1,6 @@
 '''
     @date 30/09/2019
-    @author Melih Berat ŞANLI
+    @author Melih Berat SANLI
 '''
 import os, json
 
