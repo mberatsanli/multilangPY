@@ -10,7 +10,7 @@ import multilang
 
 ####  > How to starting
 ```python
-mlang = multilang()
+mlang = multilang.multilang()
 ```
 
 #### > Set Languages Directory
