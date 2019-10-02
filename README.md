@@ -20,7 +20,7 @@ mlang.set("dir", "../demo/langs/")
 
 #### > whatIs function
 ```python
-mlang.whatIs(value, print4me=False);
+mlang.whatIs(value, print4me=False)
 ```
 | value | what is does | ouput |
 |--|--|--|
@@ -30,7 +30,7 @@ mlang.whatIs(value, print4me=False);
 
 #### > List the language in the defined direcory
 ```python 
-mlang.languages(print4me=False, helper=False);
+mlang.languages(print4me=False, helper=False)
 ```
 
 | paramters | what is does | output |
@@ -58,7 +58,7 @@ For example, the folder with the language files: `../multilang/languages/` and w
 
 #### > How to get the text or word
 ```python
-mlang.get(CALLED NAME);
+mlang.get(CALLED NAME)
 ```
 
 ## Example Using
